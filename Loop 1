@@ -1,0 +1,21 @@
+
+# Ahora los loops
+# Aquí un loop infinito con un ritmo de funk básico
+
+use_bpm 80
+
+loop do
+  sample :drum_bass_hard
+  sample :drum_cymbal_closed
+  sleep 0.5
+  sample :drum_snare_hard
+  sample :drum_cymbal_closed
+  sleep 0.5
+  sample :drum_cymbal_closed
+  sleep 0.25
+  sample :drum_bass_hard
+  sleep 0.25
+  sample :drum_cymbal_closed
+  sample :drum_snare_hard
+  sleep 0.5
+end

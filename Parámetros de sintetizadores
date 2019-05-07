@@ -1,0 +1,25 @@
+## Parámetros de sintetizadores, "amp:" acepta números entre 0
+## y 1, donde 1 es la mayor intensidad, 0 la menor, silencio.
+
+# play 60, amp: 0.75
+
+## "pan:" indica hacia qué lado enviar el sonido stereo
+## -1 envía el sonido al parlante de la izquierda, 1 a la derecha
+
+# play 60, amp: 0.5, pan: -1
+
+
+## Ahora "rate", que indica la velocidad del sonido llamado
+## La velocidad normal es 1, las velocidades < 0 hacen que
+## el sample vaya al revés y el valor absoluto indica su
+## velocidad.
+
+# sample :loop_amen, rate: 1
+
+## Números aleatorios
+use_bpm 30
+loop do
+  play rrand(60,62), amp: rrand(0.2,0.6)
+  sleep 0.5
+end
+
