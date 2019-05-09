@@ -111,26 +111,27 @@ sleep 0.25
 ###########################################
 # Puente 1
 ###########################################
-
-6.times do
-  sample :drum_cymbal_closed
-  sample :bd_haus
-  sleep 0.5
-  sample :drum_cymbal_closed
+2.times do
+  6.times do
+    sample :drum_cymbal_closed
+    sample :bd_haus
+    sleep 0.5
+    sample :drum_cymbal_closed
+    sleep 0.5
+  end
+  
+  sample :drum_tom_lo_hard
+  sleep 0.75
+  sample :drum_tom_mid_soft
+  sleep 0.25
+  sample :drum_tom_hi_hard
+  sample :drum_bass_hard
+  sleep 0.25
+  sample :drum_tom_hi_hard
+  sleep 0.25
+  sample :drum_tom_mid_hard
   sleep 0.5
 end
-
-sample :drum_tom_lo_hard
-sleep 0.75
-sample :drum_tom_mid_soft
-sleep 0.25
-sample :drum_tom_hi_hard
-sample :drum_bass_hard
-sleep 0.25
-sample :drum_tom_hi_hard
-sleep 0.25
-sample :drum_tom_mid_hard
-sleep 0.5
 
 ###########################################
 # Coro
@@ -461,3 +462,5 @@ sleep 0.5
   sleep 0.5
 end
 
+sample :drum_heavy_kick
+sample :drum_splash_hard
