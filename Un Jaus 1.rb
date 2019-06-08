@@ -67,22 +67,22 @@ sleep 0.25
 sleep 0.25
 
 ############# BEEP 4
- 
-  sample :elec_blup, rate: 2, beat_stretch: 0.6
-  sleep 0.25
-  #sample :elec_blup, rate: 2, beat_stretch: 1.5
-  sleep 0.25
-  sample :elec_blup, rate: 2, beat_stretch: 0.6
-  sleep 0.25
-  sample :elec_blup, rate: 2, beat_stretch: 1.5
-  sleep 0.25
-  
-  sample :bd_haus
-  #sample :elec_blup, rate: 2, beat_stretch: 0.6
-  sleep 0.25
-  sample :elec_blup, rate: 2, beat_stretch: 1.5
-  sleep 0.25
-  sample :elec_blup, rate: 2, beat_stretch: 0.6
-  sleep 0.25
-  sample :elec_blup, rate: 2, beat_stretch: 1.5
-  sleep 0.25
+
+sample :elec_blup, rate: 2, beat_stretch: 0.6
+sleep 0.25
+#sample :elec_blup, rate: 2, beat_stretch: 1.5
+sleep 0.25
+sample :elec_blup, rate: 2, beat_stretch: 0.6
+sleep 0.25
+sample :elec_blup, rate: 2, beat_stretch: 1.5
+sleep 0.25
+
+sample :bd_haus
+#sample :elec_blup, rate: 2, beat_stretch: 0.6
+sleep 0.25
+sample :elec_blup, rate: 2, beat_stretch: 1.5
+sleep 0.25
+sample :elec_blup, rate: 2, beat_stretch: 0.6
+sleep 0.25
+sample :elec_blup, rate: 2, beat_stretch: 1.5
+sleep 0.25

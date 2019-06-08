@@ -1,56 +1,48 @@
 use_bpm 90
-live_loop :unarola do
+
+live_loop :vecina do
+  
   
   play :a4
   
   sample :drum_cymbal_closed
-  sample :bd_zome
+  sample :bd_sone
+  sleep 0.5
   sleep 0.25
-  
-  
-  sleep 0.25
-  sleep 0.25
-  
   
   play :f4
-  
-  sample :sn_generic, rate: 1, sustain: 0.2
+  sample :elec_hi_snare
   sleep 0.25
-  
-  #1
-  
   sample :drum_cymbal_closed
-  sample :bd_zome
+  sample :bd_sone
   sleep 0.5
   
   play :b4
-  sample :sn_generic, rate: 1, sustain: 0.2
+  sample :elec_hi_snare
+  #sample :drum_cymbal_closed
   sleep 0.5
   
-  #2
+  
+  
   
   
   sample :drum_cymbal_closed
-  sample :bd_zome
+  sample :bd_sone
   sleep 0.25
   sleep 0.25
   
   play :c5
+  
   sleep 0.25
   
-  sample :sn_generic, rate: 1, sustain: 0.2
+  sample :elec_hi_snare
   sleep 0.25
-  
-  
-  # RIFF 2
-  #3
-  
   
   sample :drum_cymbal_closed
-  sample :bd_zome
-  sleep 0.25
-  sleep 0.25
+  sample :bd_sone
+  sleep 0.5
   
+  sample :elec_hi_snare
   play :f4
   sleep 0.25
   
@@ -58,11 +50,11 @@ live_loop :unarola do
   sleep 0.25
   
   
-  #4
+  
   
   play :b4
   sample :drum_cymbal_closed
-  sample :bd_zome
+  sample :bd_sone
   sleep 0.25
   
   play :c5
@@ -72,56 +64,104 @@ live_loop :unarola do
   sleep 0.25
   
   play :a4
-  sample :sn_generic, rate: 1, sustain: 0.2
+  sample :elec_hi_snare
   sleep 0.25
-  
-  #5
   
   play :b4
   sample :drum_cymbal_closed
-  sample :bd_zome
+  sample :bd_sone
   sleep 0.25
-  
   
   play :c5
   sleep 0.25
   
   play :f4
-  sample :sn_generic, rate: 1, sustain: 0.2
-  
+  sample :elec_hi_snare
   sleep 0.25
   
   play :a4
-  
   sleep 0.25
   
-  #6
+  
+  
+  
+  
+  play :b4
+  sample :bd_sone
+  sample :drum_cymbal_closed
+  sleep 0.25
+  
+  play :a4
+  sleep 0.25
+  sleep 0.25
+  
+  sample :elec_hi_snare
+  sleep 0.25
+  
+  
+  sample :drum_cymbal_closed
+  sample :bd_sone
+  sleep 0.25
+  sleep 0.25
+  
+  play :f4
+  sample :elec_hi_snare
+  sleep 0.25
+  play :a4
+  sleep 0.25
+  
+  
+  
   
   play :b4
   sample :drum_cymbal_closed
-  sample :bd_zome
+  sample :bd_sone
   sleep 0.25
   
+  play :c5
+  sleep 0.25
+  
+  play :e4
+  sleep 0.25
+  
+  sample :elec_hi_snare
+  play :a4
+  sleep 0.25
+  
+  play :b4
+  sample :drum_cymbal_closed
+  sample :bd_sone
+  sleep 0.25
+  
+  play :c5
+  sleep 0.25
+  
+  sample :elec_hi_snare
+  play :f4
+  sleep 0.25
+  play :a4
+  sleep 0.25
+  
+  
+  
+  
+  play :b4
+  sample :drum_cymbal_closed
+  sample :bd_sone
+  sleep 0.25
   
   play :a4
-  sleep 0.5
-  
-  sample :sn_generic, rate: 1, sustain: 0.2
   sleep 0.25
   
-  
-  # RIFF 3
-  #7
-  
-  # RIFF 4
-  #3
-  
-  
+  sleep 0.25
+  sample :elec_hi_snare
+  sleep 0.25
   sample :drum_cymbal_closed
-  sample :bd_zome
+  sample :bd_sone
   sleep 0.25
   sleep 0.25
   
+  sample :elec_hi_snare
   play :f4
   sleep 0.25
   
@@ -129,11 +169,11 @@ live_loop :unarola do
   sleep 0.25
   
   
-  #4
+  
   
   play :b4
   sample :drum_cymbal_closed
-  sample :bd_zome
+  sample :bd_sone
   sleep 0.25
   
   play :c5
@@ -143,129 +183,45 @@ live_loop :unarola do
   sleep 0.25
   
   play :a4
-  sample :sn_generic, rate: 1, sustain: 0.2
+  sample :elec_hi_snare
   sleep 0.25
   
-  #5
   
   play :b4
   sample :drum_cymbal_closed
-  sample :bd_zome
+  sample :bd_sone
   sleep 0.25
-  
   
   play :c5
   sleep 0.25
   
   play :f4
-  sample :sn_generic, rate: 1, sustain: 0.2
-  
+  sample :elec_hi_snare
   sleep 0.25
   
   play :a4
-  
   sleep 0.25
   
-  #6
+  
+  
   
   play :b4
-  sample :drum_cymbal_closed
-  sample :bd_zome
+  sample :drum_tom_hi_soft
+  sample :bd_sone
   sleep 0.25
   
-  
   play :a4
+  sleep 0.25
+  #sample :drum_cymbal_closed
+  sleep 0.25
+  sample :drum_tom_lo_hard
+  sleep 0.25
+  sample :drum_tom_lo_hard
+  sample :bd_sone
   sleep 0.5
-  
-  sample :sn_generic, rate: 1, sustain: 0.2
-  sleep 0.25
-  
-  
-  
-  
-  
-  
-  
-  
-  # RIFF 4
-  #3
-  
-  
-  sample :drum_cymbal_closed
-  sample :bd_zome
-  sleep 0.25
-  sleep 0.25
-  
-  play :f4
-  sleep 0.25
-  
-  play :a4
-  sleep 0.25
-  
-  
-  #4
-  
-  play :b4
-  sample :drum_cymbal_closed
-  sample :bd_zome
-  sleep 0.25
-  
-  play :c5
-  sleep 0.25
-  
-  play :e4
-  sleep 0.25
-  
-  play :a4
-  sample :sn_generic, rate: 1, sustain: 0.2
-  sleep 0.25
-  
-  #5
-  
-  play :b4
-  sample :drum_cymbal_closed
-  sample :bd_zome
-  sleep 0.25
-  
-  
-  play :c5
-  sleep 0.25
-  
-  play :f4
-  sample :sn_generic, rate: 1, sustain: 0.2
-  
-  sleep 0.25
-  
-  play :a4
-  
-  sleep 0.25
-  
-  #6
-  
-  play :b4
-  sample :drum_cymbal_closed
-  sample :bd_zome
-  sleep 0.25
-  
-  
-  play :a4
+  sample :drum_tom_hi_hard
+  #sample :drum_cymbal_closed
   sleep 0.5
-  
-  #sample :sn_generic, rate: 1, sustain: 0.2
-  sleep 0.25
-  
-  sample :perc_impact2, amp: 2
-  sleep 0.333333333333333333333333333333333
-  
-  sample :perc_impact2, amp: 2
-  sleep 0.333333333333333333333333333333333
-  
-  sample :perc_impact2, amp: 2
-  sleep 0.333333333333333333333333333333333
-  
-  
   
   
 end
-
-
