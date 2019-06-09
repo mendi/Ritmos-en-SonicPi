@@ -1,8 +1,9 @@
 use_bpm 90
 
-# CORO
+# CORO: Vecina
 
 live_loop :vecina do
+  
   
   use_synth :hollow
   
